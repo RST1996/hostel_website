@@ -1,0 +1,157 @@
+body{
+	margin:0px;
+	background-color: white;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+button{
+	cursor: pointer;
+}
+.header{
+	text-align:center;
+	font-size: 36px;
+	font-weight: bold;
+	padding:8px;
+	line-height: 0.8em;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(1, antiquewhite));
+}
+#main_menu_container{
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4d5b76), color-stop(1, #6f80a1));
+	font-size: 30px;
+	padding:12px;
+	color: white;
+	overflow:auto;
+}
+#main_menu_container span{
+	font-size: 18px;
+	font-style:italic;
+}	
+#copy{
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4d5b76), color-stop(1, #6f80a1));
+	font-size: 30px;
+	padding:12px;
+	color: white;
+}
+#copy span{
+	font-size: 18px;
+	font-style:italic;
+}	
+.hide{
+	display:none;
+}
+.show{
+	display: block;
+}
+.header span{
+	font-size: 18px;
+}
+
+.f-nav{  /* To fix main menu container */
+			z-index: 9999;
+			position: fixed;			
+			top:0px; 
+			width: 100%;
+			opacity: 50%;
+		}
+.sidebar{
+	float:left;
+	margin-top: 3px;
+	width:200px;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(1, antiquewhite));
+	color:#4d5b76;
+}
+.content_section{
+	min-height: 800px;
+}
+.main_content_display{
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(1, antiquewhite));
+}
+.main_content_display{
+	margin-top: 3px;
+	margin-left: 205px;
+	text-align:center;
+	padding:0px;
+}
+.footer{
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4d5b76), color-stop(1, #6f80a1));
+	color:white;
+	font-size:20px;
+	padding:4px;
+	text-align: center;
+}
+.sidebar .option{
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(1, antiquewhite));
+	color:#4d5b76;
+}
+
+.sidebar .option a{
+	text-decoration: none;
+	color:inherit;
+	display:block;
+	padding-left: 18px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.sidebar .option a:hover{
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4d5b76), color-stop(1, #6f80a1));
+	color:white;
+}
+.sidebar .option .submenu{
+	display :none;
+}
+.sidebar .option .submenu a{
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4d5b76), color-stop(1, #6f80a1));
+	color:white;
+}
+.sidebar .option .submenu a:hover{
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(1, antiquewhite));
+	color:#4d5b76;
+}
+.user_info{
+	height:60px;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(1, antiquewhite));
+	color:#4d5b76;
+	margin:0px;	
+}
+.workpannel{
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(1, antiquewhite));
+	color:#4d5b76;
+	margin:0px;
+	padding: 20px;
+}
+.vertcent{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
+
+/*---------------TABLE FORMATTING------------*/
+#page_container table{
+	align-self: center;
+	border-collapse: collapse;
+}
+#page_container table, #page_container table td{
+	border:2px solid #4d5b76;
+}
+#page_container table th{
+	border:2px solid white;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #4d5b76), color-stop(1, #6f80a1));
+	color:white;
+}
+#page_container table td{
+	padding-left: 15px;
+}
+
+/************UPDATE TRICKS*****************/
+input[type=text]{
+	width:95%;
+}
+input[type=submit]:disabled {
+	cursor:not-allowed;
+	opacity: 0.7;
+}

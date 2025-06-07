@@ -1,0 +1,29 @@
+.errmsg{
+	display:none;
+	background-color: black;
+	color:red;
+	font-weight: bold;
+	font-size:22px;
+	text-align: -webkit-center;
+}
+.show{
+	display:block;
+}
+.loginbtn{
+	background-color: cadetblue;
+	border: none;
+	color: white;
+	padding: 8px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	border-radius: 4px;
+}
+.footer{
+	background-color:cadetblue;
+	color:#fff;
+	font-size:16px;
+	text-align:center; 
+	padding:15px;
+}

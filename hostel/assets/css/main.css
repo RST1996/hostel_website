@@ -1,0 +1,301 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: antiquewhite;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(1, antiquewhite));
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+div{
+	vertical-align: top;
+}
+#header{
+	background-color: white;
+	color:cadetblue;
+	width:1300px;
+	margin:0px auto;
+	display: block;
+	overflow:auto;
+
+}
+#header .title{
+	padding:10px;
+	font-family: ariel;
+	font-weight: bold;
+	font-size: 3em;
+	display: inline-block;
+	float:left;
+}
+#header .clgname{
+	padding:10px;
+	font-family: ariel;
+	font-weight: bold;
+	font-size: 3em;
+	display: inline-block;
+	float:right;
+}
+#nav_menu{
+	background-image:url(../images/bodybg.jpg);
+	width:1300px;
+	margin:0px auto;
+	text-align: center;
+	color:cadetblue;
+}
+#nav_menu ul{
+	list-style: none;
+	margin:0px;
+}
+#nav_menu ul li{
+	padding:10px;
+	display:inline-block;
+	font-size: 22px;
+	padding:4px 15px;
+	-webkit-transition-delay: all 0.3s ease-in;
+	-o-transition-delay: all 0.3s ease-in;
+	-moz-transition-delay: all 0.3s ease-in;
+	transition-delay: all 0.3s ease-in;
+}
+#nav_menu ul li:hover{
+	background-color: rgba(152,245,255,0.6);
+	color:white;
+	font-weight: bold;
+	transition: scale(1.2);
+}
+#ddwrapper{
+	position:relative;
+}
+.dropdown{
+	display:none;
+	min-width: 160px;
+	background-color: cadetblue;
+	color:white;
+	-webkit-transition-delay:0.3s;
+	-o-transition-delay:0.3s;
+	-moz-transition-delay:0.3s;
+	transition-delay:0.3s;
+}
+.dropdown a{
+	display:block;
+	padding:4px 15px;
+	text-align: left;
+}
+.dropdown a:hover{
+	background-color: white;
+	color:cadetblue;
+}
+#ddwrapper:hover .dropdown{
+	display: block;
+	position: absolute;
+}
+/**********************/
+#combine{
+	width:1300px;
+	margin:0px auto;
+	display: flex;
+
+}
+/*--------NOTICE--------*/
+#notice{
+	background-color: green;
+	color:white;
+	position:relative;
+	font-style: italic;
+	font-family: cursive;
+	width:39%;
+	padding: 0px;
+	height:350px;
+	display: inline-block;
+	border: 10px solid transparent;
+	-webkit-border-image: url(../images/nbbg.jpg) 30 repeat; /* Safari 3.1-5 */
+    -o-border-image: url(../images/nbbg.jpg) 30 repeat; /* Opera 11-12.1 */
+    border-image: url(../images/nbbg.jpg) 30 repeat;
+}
+.completelink{
+	position:absolute;
+	display:inline-block;
+	bottom:2px;
+	right:5px;
+}
+/*--------SLIDES--------*/
+#slides{
+	width: 59%;
+	margin:0px auto;
+	padding:0px;
+	display: inline-block;
+	border: 10px solid transparent;
+	-webkit-border-image: url(../images/nbbg.jpg) 30 repeat; /* Safari 3.1-5 */
+    -o-border-image: url(../images/nbbg.jpg) 30 repeat; /* Opera 11-12.1 */
+    border-image: url(../images/nbbg.jpg) 30 repeat;
+}
+#slides img{
+	width:100%;
+	height:350px;
+	float:left;
+	
+}
+/*----------ABOUT US---------*/
+#about{
+	background-color: white;
+	color:cadetblue;
+	width:1300px;
+	margin:0px auto;
+	display: block;
+	overflow:auto;
+	min-height: 500px;
+
+}
+.title{
+	padding: 10px;
+	text-decoration: underline;
+	text-align: left;
+	font-family: ariel;
+	font-size: 24px;
+	line-height: 1.2em;
+
+}
+#about blockquote{
+	font-size: 18px;
+	line-height: 1.5em;
+}
+#about p{
+	padding:8px 12px;
+	font-family: ariel;
+	font-size: 24px;
+	line-height: 1.2em;
+}
+#about table{
+	margin:5px auto;
+	border-collapse: collapse;
+}
+#about table, #about tr, #about td {
+	border:2px solid cadetblue;
+	text-align: center;
+}
+#about th{
+	background-color: cadetblue;
+	color:white;
+	border:2px solid white;
+}
+
+.center{
+	text-align: center;
+}
+/*-------FOOTER-------*/
+#footer{
+	background-color: cadetblue;
+	color:white;
+	width:1300px;
+	margin:0px auto;
+	display: block;
+	overflow:auto;
+}
+#footer table{
+	width:100%;
+	padding:10px;
+}
+#footer .copynote{
+	text-align: center;
+	
+}
+/*------ADDITIONAL-----*/
+.pagecontent{
+	background-color: white;
+	color:cadetblue;
+	width:1300px;
+	margin:0px auto;
+	display: block;
+	overflow:auto;
+	min-height: 600px;
+}
+.pagecontent h3{
+	text-align: center;
+}
+.pagecontent table{
+	margin:5px auto;
+	border-collapse: collapse;
+}
+.pagecontent table, .pagecontent tr, .pagecontent td {
+	border:2px solid cadetblue;
+	text-align: center;
+}
+.pagecontent th{
+	background-color: cadetblue;
+	color:white;
+	border:2px solid white;
+}
+
+/***************************/
+#faculty, #committee{
+	background-color: white;
+	color:cadetblue;
+	width:1300px;
+	margin:0px auto;
+	display: block;
+	overflow:auto;
+	min-height: 300px;
+}
+#facilities{
+	/*background-color: cadetblue;*/
+	background-image: url(../images/fac.png);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color:white;
+	width:1300px;
+	margin:0px auto;
+	display: block;
+	overflow:auto;
+	min-height: 300px;
+}
+#facilities h3, #committee h3, #faculty h3{
+	font-weight: bold;
+	font-size: 2em;
+	padding:10px;
+	text-decoration: underline;
+	margin:5px 5px;
+
+}
+#facilities p, #committee p, #faculty p{
+	font-size: 1.3em;
+	padding:10px;
+}
+#facilities ul li{
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+#faculty p span{
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#rules_section{
+	background-color: white;
+	color:cadetblue;
+	width:1300px;
+	margin:0px auto;
+	display: block;
+	overflow:auto;
+}
+#rules_section h3{
+	font-weight: bold;
+	font-size: 2em;
+	padding:10px;
+	text-decoration: underline;
+	margin:5px 5px;
+
+}
+#rules_section ul li{
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+#rules_section p{
+	font-size: 1.3em;
+	padding:10px;
+}
